@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #ff0055;
 }
 
 .delete-form {
@@ -14,19 +14,29 @@ a {
     
 .delete-form button {
   color: red;
+  background-color: rgb(226, 226, 226);
 }
     
-li {
+/* li {
   list-style: none;
-}
+} */
 
 button {
-  color: red;
-  background-color: black;
-  border-color: white;
+  color: rgba(0, 0, 255, 0.038);
+  background-color: rgb(159, 157, 157);
+  border-color: black;
   border-width: 1px;
   border-style: solid;
 }
+
+button:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+}
+
 #save-skill {
   color: black;
   background-color: rgb(238, 233, 233);
