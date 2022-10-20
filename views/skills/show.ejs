@@ -7,10 +7,17 @@
     <title>Skills</title>
 </head>
 <body>
-    <h3><%= skill.skill %></h3>
-    <h3>Mastered? <%= skill.mastered ? 'Yes' : 'Not Yet' %></h3>
-   
+    <h1><%= skill.skill %></h3>
+    <!-- <h3>Have you mastered this skill? <%= skill.mastered ? 'Yes' : 'Not Yet' %></h3> -->
+    <h2>Have you mastered this skill? </h3>
+    <h3><%= skill.mastered ? 'Yes' : 'Not Yet' %></h2>
+    <h4>Would you like to delete this skill?</h4>
+   <div>
     
+    <form action="/skills/<%= skill.id %>?_method=DELETE"
+            class="delete-form" method="POST">
+            <button type="submit">Delete Skill?</button>
+   </div>
     
   </body>
 </html>
