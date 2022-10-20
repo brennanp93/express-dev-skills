@@ -19,3 +19,18 @@ a {
 li {
   list-style: none;
 }
+
+button {
+  color: red;
+  background-color: black;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+#save-skill {
+  color: black;
+  background-color: rgb(238, 233, 233);
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}

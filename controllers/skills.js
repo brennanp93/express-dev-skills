@@ -21,7 +21,7 @@ function create(req, res) {
 }
 
 function newSkill(req, res) {
-    res.render('skills/new', {title: 'New Skill'});
+    res.render('skills/new', {title: ''});
 }
 
 function index(req, res) {
